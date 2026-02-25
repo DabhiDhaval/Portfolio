@@ -1,4 +1,4 @@
-# Shlok Masani | Portfolio
+# Dhaval Dabhi | Portfolio
 
 Welcome to my personal portfolio website! 🚀  
 Showcasing my skills, projects, and experience in DevOps, Cloud, and Web Development.
@@ -30,7 +30,7 @@ Showcasing my skills, projects, and experience in DevOps, Cloud, and Web Develop
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/wolfy38/portfolio
+   git clone https://github.com/DabhiDhaval
    cd portfolio
    ```
 
@@ -72,9 +72,9 @@ Portfolio/
 ## 🤝 Connect with Me
 
 - [X (Twitter)](https://x.com/dialusers)
-- [LinkedIn](https://www.linkedin.com/in/shlok-masani/)
-- [Instagram](https://www.instagram.com/luffy._.38)
-- [GitHub](https://github.com/wolfy38)
+- [LinkedIn](https://www.linkedin.com/in/dabhi-dhaval/)
+- [Instagram](https://www.instagram.com/dabhi_dhaval7)
+- [GitHub](https://github.com/DabhiDhaval)
 
 ---
 
@@ -91,4 +91,4 @@ This project is inspired by [Soumyajit Behera's Portfolio](https://github.com/so
 Huge thanks for the design ideas and base structure!
 
 
-> Made with ❤️ by Shlok Masani
+> Made with ❤️ by Dhaval Dabhi
