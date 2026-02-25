@@ -33,6 +33,7 @@ function Projects() {
                 title="AC Service Management System"
                 description="A web-based AC Service Management System designed to handle customer bookings, service tracking, and technician management. Built with structured backend logic and deployed using modern development practices."
                 ghLink="https://github.com/DabhiDhaval/AC-Service"
+                demoLink="https://acsarvice.netlify.app/"
               />
             </Col>
 
@@ -43,7 +44,7 @@ function Projects() {
                 title="Amazon Clone"
                 description="Amazon UI Clone built using pure HTML5 and CSS3. This project focuses on layout design, responsive structure, and replicating a real-world e-commerce interface without using JavaScript or frameworks."
                 ghLink="https://github.com/DabhiDhaval/Amazon"
-                demoLink="https://your-vercel-link.vercel.app"
+                demoLink="https://65f2b529951afe96d4087897--dainty-eclair-9fe84f.netlify.app/"
               />
             </Col>
 
