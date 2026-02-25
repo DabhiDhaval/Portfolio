@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import acservice from "../../Assets/Projects/acservice.png"; // Add your image here
+import acservice from "../../Assets/Projects/acservice.png";
+import amazon from "../../Assets/Projects/amazon.png";
 import { motion } from "framer-motion";
 
 function Projects() {
@@ -25,12 +26,24 @@ function Projects() {
 
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+            {/* AC Service Project */}
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={acservice}
                 title="AC Service Management System"
                 description="A web-based AC Service Management System designed to handle customer bookings, service tracking, and technician management. Built with structured backend logic and deployed using modern development practices."
                 ghLink="https://github.com/DabhiDhaval/AC-Service"
+              />
+            </Col>
+
+            {/* Amazon Clone Project */}
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={amazon}
+                title="Amazon Clone"
+                description="Amazon UI Clone built using pure HTML5 and CSS3. This project focuses on layout design, responsive structure, and replicating a real-world e-commerce interface without using JavaScript or frameworks."
+                ghLink="https://github.com/DabhiDhaval/Amazon"
+                demoLink="https://your-vercel-link.vercel.app"
               />
             </Col>
 

@@ -15,18 +15,31 @@ function ProjectCards(props) {
       whileHover={{ scale: 1.04 }}
       whileTap={{ scale: 0.98 }}
     >
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
-        </Card.Text>
-        <Button variant="primary" href={props.ghLink} target="_blank">
-          <BsGithub /> &nbsp;
-          {"GitHub"}
-        </Button>
-      </Card.Body>
+      <Card className="h-100">
+        <Card.Img variant="top" src={props.imgPath} alt="project-img" />
+
+        <Card.Body>
+          <Card.Title>{props.title}</Card.Title>
+
+          <Card.Text style={{ textAlign: "justify" }}>
+            {props.description}
+          </Card.Text>
+
+          <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
+            <Button variant="primary" href={props.ghLink} target="_blank">
+              <BsGithub /> &nbsp; GitHub
+            </Button>
+
+            {props.demoLink && (
+              <Button variant="success" href={props.demoLink} target="_blank">
+                <CgWebsite /> &nbsp; Live Demo
+              </Button>
+            )}
+          </div>
+        </Card.Body>
+      </Card>
     </motion.div>
   );
 }
+
 export default ProjectCards;
