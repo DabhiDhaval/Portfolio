@@ -8,15 +8,15 @@ import { motion } from "framer-motion";
 
 function Home() {
   return (
-    <section>
-      <Container fluid className="home-section" id="home">
+    <section id="home" className="home-wrapper">
+      <Container fluid className="home-section">
         <Particle />
 
-        <Container className="home-content">
-          <Row className="align-items-center">
+        <Container className="home-content d-flex align-items-center">
+          <Row className="align-items-center w-100">
 
             {/* LEFT SIDE */}
-            <Col md={7} className="home-header">
+            <Col md={7} className="home-header text-md-start text-center">
 
               <motion.h1
                 className="heading"
@@ -38,25 +38,22 @@ function Home() {
                 </strong>
               </motion.h1>
 
-              {/* Typing Animation */}
-              <div style={{ paddingTop: 25 }}>
+              <div className="type-container">
                 <Type />
               </div>
 
-              {/* Tagline */}
-              <p className="hero-tagline mt-3">
+              <p className="hero-tagline">
                 Building Scalable & Secure Cloud Infrastructure with AWS & DevOps
               </p>
 
             </Col>
 
-            {/* RIGHT SIDE IMAGE */}
-            <Col md={5} className="text-center">
+            {/* RIGHT SIDE */}
+            <Col md={5} className="text-center mt-4 mt-md-0">
               <motion.img
                 src={homeLogo}
                 alt="home"
                 className="img-fluid hero-img"
-                style={{ maxHeight: "420px" }}
                 initial={{ opacity: 0, x: 40 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1 }}
