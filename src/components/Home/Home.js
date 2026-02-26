@@ -33,12 +33,12 @@ function Home() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
               >
-                <span className="main-name">
+                <strong className="main-name">
                   Dhaval Dabhi
-                </span>
+                </strong>
               </motion.h1>
 
-              <div className="type-container">
+              <div className="type-container mt-3">
                 <Type />
               </div>
 
@@ -48,7 +48,7 @@ function Home() {
 
             </Col>
 
-            {/* RIGHT SIDE IMAGE */}
+            {/* RIGHT SIDE */}
             <Col md={5} className="text-center mt-4 mt-md-0">
               <motion.img
                 src={homeLogo}
