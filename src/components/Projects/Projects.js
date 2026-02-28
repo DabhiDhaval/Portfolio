@@ -38,7 +38,7 @@ function Projects() {
             </Col>
 
             {/* Amazon Clone Project */}
-            <Col md={4} className="project-card">
+            {/* <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={amazon}
                 title="Amazon Clone"
@@ -46,7 +46,7 @@ function Projects() {
                 ghLink="https://github.com/DabhiDhaval/Amazon"
                 demoLink="https://65f2b529951afe96d4087897--dainty-eclair-9fe84f.netlify.app/"
               />
-            </Col>
+            </Col> */}
 
           </Row>
         </Container>
