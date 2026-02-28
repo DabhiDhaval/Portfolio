@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import acservice from "../../Assets/Projects/acservice.png";
-import shivgems from "../../Assets/Projects/shivgems.png"; // 👈 Add this image
+import shivgems from "./shivgems.png";
 import { motion } from "framer-motion";
 
 function Projects() {
