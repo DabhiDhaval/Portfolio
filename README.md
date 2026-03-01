@@ -1,7 +1,7 @@
 # Dhaval Dabhi | Portfolio
 
 Welcome to my personal portfolio website! 🚀  
-Showcasing my skills, projects, and experience in DevOps, Cloud, and Web Development.
+Showcasing my skills, projects, and experience in DevOps, Cloud,  and Web Development.
 
 
 ---
